@@ -138,7 +138,7 @@ export default function Home() {
               </div>
             </div><figure className="wp-block-media-text__media"><img decoding="async" src="https://marldemo.files.wordpress.com/2022/02/toa-heftiba-yn33ygmulwe-unsplash-edited.jpg?w=768" alt="" className="wp-image-26 size-full" /></figure></div>
           <div className="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background is-layout-constrained" style={{paddingTop: '8vh', paddingBottom: '8vh'}}>
-            <h2 className="wp-block-heading has-text-align-center has-x-large-font-size" id="marl-is-a-small-pottery-studio-and-gallery-based-in-the-beautiful-byron-bay" style={{lineHeight: '1.3'}}>Only YOU can achieve your goal.</h2>
+            <h2 className="wp-block-heading has-text-align-center has-x-large-font-size" id="marl-is-a-small-pottery-studio-and-gallery-based-in-the-beautiful-byron-bay" style={{lineHeight: '1.3'}}>Stop wasting your time with useless expensive programs</h2>
           </div>
         </div>
         <div className="wp-block-group alignwide is-layout-flow wp-container-17" style={{paddingTop: '8vh', paddingBottom: '8vh'}}>
@@ -162,7 +162,7 @@ export default function Home() {
           <div className="wp-block-columns alignwide is-layout-flex wp-container-16">
             <div className="wp-block-column is-layout-flow" style={{flexBasis: '50%'}}>
               <p className="has-small-font-size">ABOUT US</p>
-              <h2 className="wp-block-heading has-x-large-font-size" id="all-items-are-100-hand-made-using-the-potter-s-wheel-or-traditional-techniques-created-with-love-and-care-in-australia" style={{lineHeight: '1.3'}}>Do you have extra weight? Good news! You absolutely can still learn these skills!</h2>
+              <h2 className="wp-block-heading has-x-large-font-size" id="all-items-are-100-hand-made-using-the-potter-s-wheel-or-traditional-techniques-created-with-love-and-care-in-australia" style={{lineHeight: '1.3'}}>You have extra weight? Good news! We designed spesific  e-book for You too. You absolutely can still learn these skills!</h2>
               <p style={{fontSize: '18px'}}>We designed our E-Books for every kind of body.</p>
               <p>Choose which skill you want to learn 👇</p>
               <div className="wp-block-buttons is-content-justification-right is-layout-flex wp-container-13" style={{marginTop: '20px', marginBottom: '20px'}}>
