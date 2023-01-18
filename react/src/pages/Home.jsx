@@ -1,7 +1,13 @@
 import React from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from "react-router-dom"
 
 export default function Home() {
   return (
+  
     <div>
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -83,7 +89,8 @@ export default function Home() {
                 <div className="wp-block-navigation__responsive-dialog" aria-label="Menu">
                   <button aria-label="Close menu" data-micromodal-close className="wp-block-navigation__responsive-container-close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24} aria-hidden="true" focusable="false"><path d="M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z" /></svg></button>
                   <div className="wp-block-navigation__responsive-container-content" id="modal-3-content">
-                    <ul className="wp-block-page-list"><li className="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click menu-item-home"><a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/" aria-current="page">Home</a></li><li className="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"><a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/">Handstand</a></li></ul>
+                    <ul className="wp-block-page-list"><li className="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click menu-item-home">
+                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" to="https://joseffron.wordpress.com/" aria-current="page"><Link to="/">Home</Link></a></li><li className="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"><a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/handstand">Handstand</Link></a></li></ul>
                   </div>
                 </div>
               </div>
