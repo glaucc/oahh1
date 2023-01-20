@@ -1,7 +1,5 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
-  Route,
   Link
 } from "react-router-dom"
 
@@ -83,11 +81,10 @@ export default function Home() {
               <p className="wp-block-site-tagline">Stop wasting your time and get the results!</p>
             </div>
           </div>
-          <nav className="is-responsive items-justified-right is-fallback social-links wp-block-navigation is-horizontal is-content-justification-right is-layout-flex wp-container-4" aria-label><button aria-haspopup="true" aria-label="Open menu" className="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-3"><svg width={24} height={24} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x={4} y="7.5" width={16} height="1.5" /><rect x={4} y={15} width={16} height="1.5" /></svg></button>
+          <nav className="is-responsive items-justified-right is-fallback social-links wp-block-navigation is-horizontal is-content-justification-right is-layout-flex wp-container-4" aria-label>
             <div className="wp-block-navigation__responsive-container  " style={{}} id="modal-3">
               <div className="wp-block-navigation__responsive-close" tabIndex={-1} data-micromodal-close>
                 <div className="wp-block-navigation__responsive-dialog" aria-label="Menu">
-                  <button aria-label="Close menu" data-micromodal-close className="wp-block-navigation__responsive-container-close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24} aria-hidden="true" focusable="false"><path d="M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z" /></svg></button>
                   <div className="wp-block-navigation__responsive-container-content" id="modal-3-content">
                     <ul className="wp-block-page-list"><li className="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click menu-item-home">
                       <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" to="https://joseffron.wordpress.com/" aria-current="page"><Link to="/">Home</Link></a></li><li className="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"><a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/handstand">Handstand</Link></a></li></ul>
@@ -150,7 +147,7 @@ export default function Home() {
                       <path className="is-rating-unfilled" fill="currentColor" stroke="currentColor" d="M12,17.3l6.2,3.7l-1.6-7L22,9.2l-7.2-0.6L12,2L9.2,8.6L2,9.2L7.5,14l-1.6,7L12,17.3z" />
                     </svg>
                   </span></span><span itemProp="ratingValue" className="screen-reader-text" content="4.5">Rating: 4.5 out of 5.</span></div>
-              <p><strong>48</strong> people already bought the physical book. </p>
+              <p>We <strong>JUST</strong> published our website. Sorry, if any inconvenience happened to you</p>
               <div className="wp-block-buttons is-layout-flex" style={{marginTop: '20px', marginBottom: '20px'}}>
                 <div className="wp-block-button has-custom-font-size has-small-font-size"><a className="wp-block-button__link wp-element-button" href="#osaka-dinner-set" style={{borderRadius: '100px', paddingTop: '6px', paddingRight: '36px', paddingBottom: '6px', paddingLeft: '36px'}}>BUY FOR ONLY <s>$49.99</s> 9.99$</a></div>
               </div>
