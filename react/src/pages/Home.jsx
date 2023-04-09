@@ -238,7 +238,7 @@ export default function Home() {
     </footer>
     
   {/* <noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /&gt;</noscript> */}
-  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/2114b4ff17c8530c966969fef/797d90d5c948a60574a7d08d0.js");</script>
+  
 </div>
   )
 }
