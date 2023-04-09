@@ -40,3 +40,23 @@
     padding: 0; 
     box-sizing: border-box; 
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wp-block-site-title {
+  margin-left: 5vw;
+}
+
+.wp-block-navigation__responsive-container-content {
+  margin-right: 5vw;
+}
+
+.open-on-hover-click {
+  margin-left: 4vw;
+}
+
+.wp-block-buttons>.wp-block-button {
+  margin-right: 3vw !important;
+}
