@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getPerformance } from "firebase/performance";
-import { getAnalytics } from "firebase/analytics";
+import { getAnalytics, logEvent } from "firebase/analytics";
+
 
 // TODO: Replace the following with your app's Firebase project configuration
 // See: https://firebase.google.com/docs/web/learn-more#config-object
@@ -21,3 +22,5 @@ const app = initializeApp(firebaseConfig);
 // Initialize Performance Monitoring and get a reference to the service
 const perf = getPerformance(app);
 const analytics = getAnalytics(app);
+
+logEvent(analytics, 'notification_received');
