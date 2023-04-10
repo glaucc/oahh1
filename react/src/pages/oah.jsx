@@ -90,18 +90,16 @@ export default function Oah() {
                     <ul className="wp-block-page-list">
                       
                       <li className="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click menu-item-home">
-                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/handstand">SFD Disiplin</Link></a></li>
+                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/sfddisiplin">SFD Disiplin</Link></a></li>
                       
                       <li className="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click menu-item-home">
-                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/handstand">SFD 30</Link></a></li>
+                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/sfd30">SFD 30</Link></a></li>
 
                       <li className="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click menu-item-home">
                       <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/handstand">Handstand</Link></a></li>
 
                       <li className="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click menu-item-home">
-                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/handstand" aria-current="page">OAH</Link></a></li>
-
-                      <li className="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"><a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/handstand">Handstand</Link></a></li>
+                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/oah" aria-current="page">OAH</Link></a></li>
                     
                     </ul>
                   </div>
