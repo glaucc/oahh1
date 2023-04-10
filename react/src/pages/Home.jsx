@@ -90,7 +90,7 @@ export default function Home() {
                     <ul className="wp-block-page-list">
                       
                       <li className="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click menu-item-home">
-                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/sfddisiplin">SFD Disiplin</Link></a></li>
+                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="josefr.one"><Link to="/sfddisiplin">SFD Disiplin</Link></a></li>
                       
                       <li className="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click menu-item-home">
                       <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/sfd30">SFD 30</Link></a></li>
