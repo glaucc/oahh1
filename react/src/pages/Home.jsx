@@ -78,7 +78,7 @@ export default function Home() {
         <div className="wp-block-group site-header alignfull is-content-justification-space-between is-layout-flex wp-container-5" style={{paddingBottom: 'var(--wp--custom--gap--vertical)'}}>
           <div className="wp-block-group site-brand is-layout-flex">
             <div className="wp-block-group is-layout-flow">
-              <h1 className="wp-block-site-title"><a href="https://joseffron.wordpress.com" target="_self" rel="home" aria-current="page">SFD</a></h1>
+              <h1 className="wp-block-site-title"><a href="josefr.one" target="_self" rel="home" aria-current="page">SFD</a></h1>
               {/* <p className="wp-block-site-tagline">SFD Disiplin</p> */}
             </div>
           </div>
@@ -90,16 +90,14 @@ export default function Home() {
                     <ul className="wp-block-page-list">
                       
                       <li className="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click menu-item-home">
-                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/handstand">SFD Disiplin</Link></a></li>
+                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/sfddisiplin">SFD Disiplin</Link></a></li>
                       
                       <li className="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click menu-item-home">
-                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/handstand">SFD 30</Link></a></li>
+                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/sfd30">SFD 30</Link></a></li>
+
 
                       <li className="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click menu-item-home">
-                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/handstand">Handstand</Link></a></li>
-
-                      <li className="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click menu-item-home">
-                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/handstand" aria-current="page">OAH</Link></a></li>
+                      <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/oah" aria-current="page">OAH</Link></a></li>
 
                       <li className="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"><a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://joseffron.wordpress.com/handstand/"><Link to="/handstand">Handstand</Link></a></li>
                     
@@ -181,15 +179,15 @@ export default function Home() {
               <figure className="wp-block-image size-large has-custom-border is-style-default"><img decoding="async" loading="lazy" width={1280} height={1280} data-attachment-id={22} data-permalink="https://joseffron.wordpress.com/home-2/photo_5346185354178315101_y/" data-orig-file="https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315101_y.jpg" data-orig-size="1280,1280" data-comments-opened={1} data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="photo_5346185354178315101_y" data-image-description data-image-caption data-medium-file="https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315101_y.jpg?w=300" data-large-file="https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315101_y.jpg?w=1024" src="https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315101_y.jpg?w=1024" alt="" className="wp-image-22" style={{borderRadius: '10px'}} srcSet="https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315101_y.jpg?w=1024 1024w, https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315101_y.jpg?w=150 150w, https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315101_y.jpg?w=300 300w, https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315101_y.jpg?w=768 768w, https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315101_y.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
             </div>
             <div className="wp-block-column is-layout-flow" style={{flexBasis: '50%'}}>
-              <p className="has-small-font-size">NƏYƏ GÖRƏ BU KİTAB ƏN YAXŞISIDIR?</p>
-              <h2 className="wp-block-heading has-x-large-font-size" id="all-items-are-100-hand-made-using-the-potter-s-wheel-or-traditional-techniques-created-with-love-and-care-in-australia" style={{lineHeight: '1.3'}}>Bu kitab İlk növbədə uğurun qucağında nizam-intizam və zəhmətlə yaradılmışdır.</h2>
-              <p style={{lineHeight: '1.65'}}>With this E-Book you are going to learn how to:👇</p>
+              <p className="has-small-font-size"><strong>NƏYƏ GÖRƏ</strong> SFD DISIPLIN?</p>
+              <h2 className="wp-block-heading has-x-large-font-size" id="all-items-are-100-hand-made-using-the-potter-s-wheel-or-traditional-techniques-created-with-love-and-care-in-australia" style={{lineHeight: '1.3'}}>"SFD Disiplin"-dən daha yaxşı Azərbaycan dilində İntizam haqqında daha yaxşı kitab yoxdur. Tapana pulu geri ödənilir!</h2>
+              <p style={{lineHeight: '1.65'}}>Bu E-Kitabı bitirəndə siz nə edə biləcəksiniz👇</p>
               <ul style={{lineHeight: 2}}>
-                <li>build muscle fast &amp; efficiently.</li>
-                <li>Learn Handstand while building muscle.</li>
-                <li>Train to <strong>LOOK STRONG &amp; BE STRONG</strong>.</li>
+                <li><strong>İSTƏDİYİNİZ</strong> hədəfə necə çatacağınınızın bütün addımlarla planını qurmaq</li>
+                <li>motivasiya və həvəssizlik aradan qaldırmaq</li>
+                {/* <li>Train to <strong>LOOK STRONG &amp; BE STRONG</strong>.</li>
                 <li>Learn Handstand.</li>
-                <li>And the best – working out at <strong>HOME</strong> without equipment</li>
+                <li>And the best – working out at <strong>HOME</strong> without equipment</li> */}
               </ul>
             </div>
           </div>
@@ -211,17 +209,22 @@ export default function Home() {
           </div>
           <br></br>
           <br></br>
-          <figure className="wp-block-image alignwide size-large has-custom-border"><img decoding="async" loading="lazy" width={735} height={489} data-attachment-id={24} data-permalink="https://joseffron.wordpress.com/home-2/photo_5346185354178315097_x/" data-orig-file="https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315097_x.jpg" data-orig-size="735,489" data-comments-opened={1} data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="photo_5346185354178315097_x" data-image-description data-image-caption data-medium-file="https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315097_x.jpg?w=300" data-large-file="https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315097_x.jpg?w=735" src="https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315097_x.jpg?w=735" alt="" className="wp-image-24" style={{borderRadius: '10px'}} srcSet="https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315097_x.jpg 735w, https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315097_x.jpg?w=150 150w, https://joseffron.files.wordpress.com/2023/01/photo_5346185354178315097_x.jpg?w=300 300w" sizes="(max-width: 735px) 100vw, 735px" /></figure>
-          <h2 className="wp-block-heading has-text-align-center" id="sfd-set" style={{fontSize: '54px'}}>One Arm Handstand set</h2>
-          <p className="has-text-align-center"><s>$49.99</s> $9.99*</p>
-          <p className="has-text-align-center">*Discount is only available for the limited amount of customers</p>
-          <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button aligncenter wp-block-button" style={{maxWidth: '100%'}}><a className="wp-block-button__link" style={{borderRadius: '50px', width: '50%', maxWidth: '100%'}} data-id-attr="recurring-payments-id" id="recurring-payments-id" href="#" target="_blank" role="button" rel="noopener noreferrer">BUY NOW</a></div></div>
-          <p className="has-text-align-center"><strong>48</strong> people already bought the physical book.</p>
+
+          <figure className="wp-block-image alignwide size-large has-custom-border"><img decoding="async" width={1280} height={853} data-attachment-id={44} data-permalink="https://joseffron.wordpress.com/home-2/photo_5303004715057007204_y/" data-orig-file="https://joseffron.files.wordpress.com/2023/04/photo_5303004715057007204_y.jpg" data-orig-size="1280,853" data-comments-opened={1} data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="photo_5303004715057007204_y" data-image-description data-image-caption data-medium-file="https://joseffron.files.wordpress.com/2023/04/photo_5303004715057007204_y.jpg?w=300" data-large-file="https://joseffron.files.wordpress.com/2023/04/photo_5303004715057007204_y.jpg?w=1024" src="https://joseffron.files.wordpress.com/2023/04/photo_5303004715057007204_y.jpg?w=1024" alt className="wp-image-44" style={{"border-radius":"10px"}} srcSet="https://joseffron.files.wordpress.com/2023/04/photo_5303004715057007204_y.jpg?w=1024 1024w, https://joseffron.files.wordpress.com/2023/04/photo_5303004715057007204_y.jpg?w=150 150w, https://joseffron.files.wordpress.com/2023/04/photo_5303004715057007204_y.jpg?w=300 300w, https://joseffron.files.wordpress.com/2023/04/photo_5303004715057007204_y.jpg?w=768 768w, https://joseffron.files.wordpress.com/2023/04/photo_5303004715057007204_y.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+          
+          
+          <h2 className="wp-block-heading has-text-align-center" id="sfd-set" style={{fontSize: '54px'}}>"SFD Disiplin" E-Kitabı</h2>
+          <h5 className="has-text-align-center">"Necə istənilən sahədə 99% insandan qabağa keçmək olar?" </h5><br></br>
+
+          <p className="has-text-align-center"><s>9.99 AZN</s> 4.99 AZN*</p>
+          <p className="has-text-align-center">*Biz saytımızı <strong>TƏZƏCƏ</strong> istifadəyə açmışıq.<br></br> Buna görə də, ilk 100 müştəri üçün keçərli endirimimiz hələ də aktivdir!</p>
+          <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button aligncenter wp-block-button" style={{maxWidth: '100%'}}><a className="wp-block-button__link" style={{borderRadius: '50px', width: '50%', maxWidth: '100%'}} data-id-attr="recurring-payments-id" id="recurring-payments-id" href="https://forms.gle/xtCrivtNrS4JmYWc8" target="_blank" role="button" rel="noopener noreferrer">INDI AL</a></div></div>
+          <p className="has-text-align-center">(Qalan endirim sayı: <strong>92</strong>)</p>
         </div>
         <div className="wp-block-group alignfull has-tertiary-background-color has-background is-layout-constrained" style={{paddingTop: '8vh', paddingBottom: '8vh'}}>
-          <p className="has-text-align-center has-small-font-size">WHAT PEOPLE ARE SAYING</p>
-          <h2 className="wp-block-heading has-text-align-center" id="these-plates-are-a-work-of-art-and-the-quality-is-outstanding-i-bought-one-set-as-a-gift-and-anoter-to-treat-myself-and-i-couldn-t-be-happier" style={{lineHeight: '1.3'}}>These plates are a work of art, and the quality is outstanding. I bought one set as a gift and anoter to treat myself, and I couldn’t be happier!</h2>
-          <p className="has-text-align-center has-small-font-size">– Terry B.</p>
+          <p className="has-text-align-center has-small-font-size">AlICILARIN DEDİKLƏRİ</p>
+          <h2 className="wp-block-heading has-text-align-center" id="these-plates-are-a-work-of-art-and-the-quality-is-outstanding-i-bought-one-set-as-a-gift-and-anoter-to-treat-myself-and-i-couldn-t-be-happier" style={{lineHeight: '1.6'}}>Bu kitablar sənət əsəridir və keyfiyyəti tamam başqa səviyyədir. Bir dəsti hədiyyə, digərini isə özümü düzəltmək üçün aldım və bundan daha razı ola bilməzdim!</h2>
+          <p className="has-text-align-center has-small-font-size">– T. Bəhramov</p>
         </div>
       </div>
     </main>
@@ -237,7 +240,7 @@ export default function Home() {
         </div>
     </footer>
     
-  {/* <noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /&gt;</noscript> */}
+  <noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /&gt;</noscript>
   
 </div>
   )

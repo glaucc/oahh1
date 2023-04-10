@@ -3,6 +3,9 @@ import Home from './pages/Home'
 import Handstand from './pages/Handstand';
 import Oah from './pages/oah';
 import NoPage from './pages/NoPage';
+import SFD30 from './pages/SFD30';
+import SFDDisiplin from './pages/SFDDisiplin';
+
 import { BrowserRouter, Routes, Route, createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
@@ -23,6 +26,14 @@ function App() {
     {
       path: "/oah",
       element: <Oah />,
+    },
+    {
+      path: "/sfddisiplin",
+      element: <SFDDisiplin />,
+    },
+    {
+      path: "/sfd30",
+      element: <SFD30 />,
     }
   ]);
 

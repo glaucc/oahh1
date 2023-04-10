@@ -2,8 +2,8 @@ import React from "react";
 import {
     Link
   } from "react-router-dom"
-  
-export default function Handstand() {
+
+export default function SFD30() {
     return (
         <div>
   <meta charSet="UTF-8" />
