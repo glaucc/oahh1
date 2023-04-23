@@ -234,7 +234,7 @@ export default function SFDDisiplin() {
   <footer className="site-footer-container wp-block-template-part">
         <div className="wp-block-group is-layout-constrained">
           <div className="wp-block-group is-layout-flow" style={{paddingTop: '80px', paddingBottom: '30px'}}>
-            <p className="has-text-align-center">Proudly Powered by <a href="https://www.linkedin.com/company/byild" rel="nofollow">Byild</a></p>
+            <p className="has-text-align-center">Proudly Powered by <a href="https://sfferex.web.app" rel="nofollow">Sferex</a></p>
           </div>
         </div>
     </footer>
